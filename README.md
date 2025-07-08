@@ -120,12 +120,11 @@ This will speed up tensor operations and significantly reduce training time.
 
 ## Performance Comparison
 
-| Device | Epochs | Total Training Time | Accuracy |
-| ------ | ------ | ------------------- | -------- |
-| CPU    | 5      | \~X minutes         | \~Y%     |
-| GPU    | 5      | \~Z seconds         | \~Y%     |
+| Device | Epochs | Total Training Time | 
+| ------ | ------ | ------------------- |
+| CPU    | 5      | 20                  | 
+| GPU    | 5      | 10                  | 
 
-> Replace X, Y, Z with actual values after running the notebook.
 
 Generally, GPU training results in **faster execution** with **identical accuracy**, assuming the same training configuration.
 
